@@ -1,0 +1,22 @@
+{
+    "short_name": "Indecision",
+    "name": "Indecision App",
+    "icons": [
+        {
+            "src": "/favicon.png",
+            "type": "image/png",
+            "sizes": "192×192"
+          },
+      {
+        "src": "/favicon.png",
+        "type": "image/png",
+        "sizes": "512×512"
+      }
+
+    ],
+    "start_url": "http://jackies-indecision-app.herokuapp.com/",
+    "background_color": "#333745",
+    "display": "standalone",
+    "scope": "http://jackies-indecision-app.herokuapp.com/",
+    "theme_color": "#8357c5"
+  }

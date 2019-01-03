@@ -20,11 +20,12 @@ export default class AddOption extends React.Component{
             <div>
                 {this.state.error && <p className='add-option-error'>{this.state.error}</p> }
             <form 
+                aria-label={'add an option with this form'}
                 className='add-option' 
                 onSubmit={this.handleAddOption}
                 >
-                <input type="text" name="option" className='add-option__input'/>
-                <button className='button'>Add Option</button>
+                <input aria-label={'add an option in this input box'} type="text" name="option" className='add-option__input'/>
+                <button aria-label={'submit an option with this button'}className='button'>Add Option</button>
             </form>
                 
             </div>
