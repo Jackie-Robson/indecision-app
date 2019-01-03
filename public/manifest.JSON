@@ -3,16 +3,15 @@
     "name": "Indecision App",
     "icons": [
         {
-            "src": "/favicon.png",
+            "src": "./smolicon.png",
             "type": "image/png",
-            "sizes": "192×192"
+            "sizes": "192x192"
           },
       {
-        "src": "/favicon.png",
+        "src": "./bigicon.png",
         "type": "image/png",
-        "sizes": "512×512"
+        "sizes": "512x512"
       }
-
     ],
     "start_url": "/",
     "background_color": "#333745",
