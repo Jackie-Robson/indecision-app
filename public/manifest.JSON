@@ -14,9 +14,8 @@
       }
 
     ],
-    "start_url": "http://jackies-indecision-app.herokuapp.com/",
+    "start_url": "/",
     "background_color": "#333745",
     "display": "standalone",
-    "scope": "http://jackies-indecision-app.herokuapp.com/",
     "theme_color": "#8357c5"
   }

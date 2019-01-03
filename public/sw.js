@@ -1,16 +1,22 @@
 importScripts('/cache-polyfill.js');
 
 
-self.addEventListener('install', function(e) {
- e.waitUntil(
-   caches.open('airhorner').then(function(cache) {
-     return cache.addAll([
-       '/',
-       '/index.html',
-       '/bundle.js',
-       '/manifest.JSON',
-       '/favicon.png'
-     ]);
-   })
- );
+var CACHE_NAME = 'Indecision';
+var urlsToCache = [
+    '/',
+    '/index.html',
+    '/bundle.js',
+    '/manifest.JSON',
+    '/favicon.png'
+];
+
+self.addEventListener('install', function(event) {
+  // Perform install steps
+  event.waitUntil(
+    caches.open(CACHE_NAME)
+      .then(function(cache) {
+        console.log('Opened cache');
+        return cache.addAll(urlsToCache);
+      })
+  );
 });
