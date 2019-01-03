@@ -4,6 +4,10 @@
     "main": "index.js",
     "author": "Jackie Robson",
     "license": "MIT",
+    "engines": {
+        "npm":"6.4.1",
+        "node":"11.1.0"
+    },
     "dependencies": {
         "babel-cli": "6.24.1",
         "babel-core": "6.25.0",
@@ -25,7 +29,7 @@
         "webpack-dev-server": "2.5.1"
     },
     "scripts": {
-        "build": "webpack",
+        "build": "webpack -p",
         "serve": "live-server public/",
         "dev-server": " webpack-dev-server"
     },

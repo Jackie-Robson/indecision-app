@@ -8,5 +8,5 @@
   app.use(express.static('public'))
 
   app.listen(5000, function() {
-      console.log('Dev app listening on port 5000!');
+      console.log('running');
   });
