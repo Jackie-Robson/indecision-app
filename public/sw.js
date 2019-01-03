@@ -6,7 +6,7 @@ var urlsToCache = [
     '/',
     '/index.html',
     '/bundle.js',
-    '/manifest.JSON',
+    '/manifest.json',
     '/favicon.png',
     '/smolicon.png'
 ];
